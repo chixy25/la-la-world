@@ -1,0 +1,124 @@
+p {
+   font-size: italy;
+   font-family: Times New Roman;
+   text-align: center;
+}
+body {
+   background-color: white;
+}
+h1 {
+   color: fff000;
+   font-family:Courier;
+   font-weight: bold;
+   text-align: center;
+   text-shadow: 5px 2px 5px grey;
+}
+.text{
+   text-align-last: left;
+}
+h4{
+   text-shadow: 10px 5px 6px grey;
+}
+*{
+   box-sizing: border-box;
+}
+.column{
+   float: left;
+   padding: 20px;
+   border-radius: 2px 5px 2px 5px;
+   width: 100px; height: 100px;
+   clear: both;
+}
+h2{
+   font-family: Georgia;
+   font-size: Avatar;
+   font-weight: bold;
+   font-style: italic;
+   text-align: center;
+}
+.hope{
+  font-family: Courier;
+  background-color: red;
+  color: blue;
+  text-align: center;
+}
+.red {
+  color: red !important; display: inline; float: none;
+}
+article {
+  padding: 10px;
+  border: 1px solid grey;
+  background: -moz-linear-gradient(green, yellow, blue, red );
+  box-shadow: 2px 10px 14px #ccc;
+  background-color: lightblue;
+}
+.alignleft {
+  text-align: left;
+}
+img {
+  border: 3px dashed  grey;
+  margin: 2px ;
+  padding: 10px;
+  border-radius: 25% 25% 25% 25%;
+}
+.small {
+  padding: 2px;
+  border: 1px solid gray;
+}
+.laptop{
+  margin: 5px 2px 2px 5px;
+  border-radius: 20% 10% 20% 10%;
+  border: 1px dashed gray;
+}
+.fullcard {
+  width: 245;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 5px ;
+  padding: 4px ;
+}
+#box {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.cardcontext {
+  padding: 10px;
+}
+.cardtext {
+  margin-bottom: 30px;
+}
+#navbar {
+  position: relative;
+  bottom: 2px;
+  left: 2px;
+  background-color: #767676;
+  width: 100%;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-basis: 100px ;
+  flex-shrink:200px ;
+  flex-wrap: wrap;
+  order: 20;
+  align-items: flex-end;
+}
+
+#grid {
+  display: grid;
+  grid-template-rows:1000px 1000px ;
+  grid-template-columns:500px 500px ;
+  
+}
